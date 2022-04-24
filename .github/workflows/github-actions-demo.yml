@@ -7,4 +7,4 @@ jobs:
                         - uses: actions/checkout@v2
                           name: Check the repository
                         - run: pip install pytest
-                        - runa: pytest
+                        - run: pytest
