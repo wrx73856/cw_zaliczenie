@@ -1,6 +1,6 @@
 
 def pow(x):
-    return x + 2
+    return x * x
     
 def add(x, y):
     return x + y
