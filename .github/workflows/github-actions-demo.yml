@@ -1,0 +1,11 @@
+name: my first workflow
+on: [push]
+jobs:
+	pytesst:
+		runs-on: ubuntu-latest
+		steps:
+			- uses: actions/checkout@v2
+                         name: Check the repository
+                   	- runs: |
+                   		  pip install pytest
+                   		  pytest
